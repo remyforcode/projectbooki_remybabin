@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Booki - Votre hébergement pour les vacances !</title>
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/style.css">
         <script src="https://kit.fontawesome.com/70f41f18b3.js" crossorigin="anonymous"></script> 
+        <link href="https://fonts.cdnfonts.com/css/raleway" rel="stylesheet">
     </head>
     <body>
-        <!----haut de la page---->
+        <!--haut de la page-->
         <header>
-            <!----logo cliquable---->
+            <!--logo cliquable-->
             <div class="logo">
                 <a href="index.html"><img id="logo" src="./images/logo/Booki@3x.png" alt="Booki - Votre hébergement pour les vacances !" title="Booki - Votre hébergement pour les vacances !"></a>
             </div>
-            <!----menu de navigation---->
+            <!--menu de navigation-->
             <nav>
                <ul class="menu">
                     <li class="hebergements">
@@ -26,24 +27,24 @@
                 </ul>
             </nav>
         </header>
-        <!----Corps de la page---->
+        <!--Corps de la page-->
         <main>
-            <!----Partie Recherche---->
+            <!--Partie Recherche-->
             <section id="recherche">
-                <div id="identite_du_site">
+                <div>
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
                 </div>
                 <div id="zone_recherche">
                     <form method="post" action="#" id="formulaire">
                         <i class="fa-solid fa-location-dot"></i> 
-                        <input type="text" name="localisation" placeholder="Marseille, France" />
+                        <input type="text" name="localisation" placeholder="Marseille, France">
                         <button type="button" class="bouton_rechercher_desktop_tablette">Rechercher</button>
                         <button type="button" class="bouton_rechercher_mobile"><i class="fa-solid fa-magnifying-glass loupe"></i></button>
                     </form>
                 </div>
             </section>
-            <!----Partie Filtres---->
+            <!--Partie Filtres-->
             <div id="filtres_info">
                 <div id="filtres">
                     <div id="titre_filtres">Filtres</div>
@@ -71,18 +72,18 @@
                     <p id="texte_info">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
-            <!----Partie hébergements et populaires---->
+            <!--Partie hébergements et populaires-->
             <section id="hebergements_pop">
-                <!----Partie hébergements---->
+                <!--Partie hébergements-->
                 <div id="hebergements">
                     <div id="titre_hebergements_ville">
-                        <h2>Hébergemments à Marseille</h2>
+                        <h2>Hébergements à Marseille</h2>
                     </div>
                     <div id="resultats_hebergements">
-                        <div class="choix_hebergements">
-                            <a href="#">
+                        <a href="#" class="choix_hebergements">
+                            <div class="aspect-ratio">
                                 <img class="hebergements_image" src="./images/hebergements/Hôtel-du-port.jpg" alt="Booki - Hôtel du port" title="Booki - Hôtel du port">
-                            </a> 
+                            </div> 
                                 <div class="titre_prix_etoiles_hebergements">
                                     <div class="titre_hebergements">Hôtel du port</div>
                                     <div class="prix_hebergements">Nuit à partir de 52 <p class="bold">€</p></div>
@@ -94,11 +95,11 @@
                                         <i class="fa-solid fa-star etoiles_grises"></i>
                                     </div>
                                 </div>
-                        </div>
-                        <div class="choix_hebergements">
-                            <a href="#">
+                        </a>
+                        <a href="#" class="choix_hebergements">
+                            <div class="aspect-ratio">
                                 <img class="hebergements_image" src="./images/hebergements/Hôtel-Chez-Amina.jpg" alt="Booki - Hôtel Chez Amina" title="Booki - Hôtel Chez Amina">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_hebergements">
                                 <div class="titre_hebergements">Hôtel Chez Amina</div>
                                 <div class="prix_hebergements">Nuit à partir de 96<p class="bold">€</p></div>
@@ -110,11 +111,11 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>    
-                        </div>
-                        <div class="choix_hebergements">
-                            <a href="#">
+                        </a>
+                        <a href="#" class="choix_hebergements">
+                            <div class="aspect-ratio">
                                 <img class="hebergements_image" src="./images/hebergements/Hôtel-Les-mouettes.jpg" alt="Booki - Hotel Les mouettes à Marseille" title="Booki - Hotel Les mouettes à Marseille">
-                            </a>
+                            </div>
                                 <div class="titre_prix_etoiles_hebergements">
                                 <div class="titre_hebergements">Hôtel Les mouettes</div>
                                 <div class="prix_hebergements">Nuit à partir de 76<p class="bold">€</p></div>
@@ -126,11 +127,11 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>    
-                        </div>
-                        <div class="choix_hebergements">
-                            <a href="#">
+                        </a>
+                        <a href="#" class="choix_hebergements">
+                            <div class="aspect-ratio">
                                 <img class="hebergements_image" src="./images/hebergements/Hôtel-de-la-mer.jpg" alt="Booki - Hotel de la mer à Marseille" title="Booki - Hotel de la mer à Marseille">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_hebergements">
                                 <div class="titre_hebergements">Hôtel de la mer</div>
                                 <div class="prix_hebergements">Nuit à partir de 46<p class="bold">€</p></div>
@@ -142,11 +143,11 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>    
-                        </div>
-                        <div class="choix_hebergements">
-                            <a href="#">
+                        </a>
+                        <a href="#" class="choix_hebergements">
+                            <div class="aspect-ratio">
                                 <img class="hebergements_image" src="./images/hebergements/Auberge-La-Canebière.jpg" alt="Booki - Auberge La Canebière" title="Booki - Auberge La Canebière à Marseille">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_hebergements">
                                 <div class="titre_hebergements">Auberge La Canebière</div>
                                 <div class="prix_hebergements">Nuit à partir de 25 <p class="bold">€</p></div>
@@ -158,11 +159,11 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>    
-                        </div>
-                        <div class="choix_hebergements">
-                            <a href="#">
+                        </a>
+                        <a href="#" class="choix_hebergements">
+                            <div class="aspect-ratio">
                                 <img class="hebergements_image" src="./images/hebergements/Auberge-Le-Panier.jpg" alt="Booki - Auberge Le Panier" title="Booki - Auberge Le Panier à Marseille">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_hebergements">
                                 <div class="titre_hebergements">Auberge Le Panier</div>
                                 <div class="prix_hebergements">Nuit à partir de 23<p class="bold">€</p></div>
@@ -174,24 +175,26 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>    
-                        </div>
+                        </a>
                     </div>
                     <div id="afficher_plus"><a href="#">Afficher plus</a></div>
                 </div>
-                <!----Partie Les plus populaires---->
+                <!--Partie Les plus populaires-->
                 <div id="les_plus_populaires">
                     <div id="titre_les_plus_populaires">
                         <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <div id="resultats_les_plus_populaires">
-                        <div class="selection_les_plus_populaires">
-                            <a href="#">
+                        <a href="#" class="selection_les_plus_populaires">
+                            <div class="image_wrapper">
                                 <img class="populaires_image" src="./images/hebergements/Auberge.jpg" alt="Booki - Auberge la Canebière" title="Booki -    Auberge la Canebière à Marseille">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_selection_populaires">
+                              <div>
                                 <div class="titre_selection_populaires">Auberge la Canibière</div>
                                 <div class="prix_selection_populaires">Nuit à partir de 25<p class="bold">€</p></div>
+                              </div>
                                 <div class="etoiles_populaires">
                                     <i class="fa-solid fa-star etoiles_bleues"></i>
                                     <i class="fa-solid fa-star etoiles_bleues"></i>
@@ -200,14 +203,16 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>
-                        </div>   
-                        <div class="selection_les_plus_populaires">
-                            <a href="#">
+                        </a>   
+                        <a href="#" class="selection_les_plus_populaires">
+                            <div class="image_wrapper">
                                 <img class="populaires_image" src="./images/hebergements/Chambre.jpg" alt="Booki - Chambre d'hôtes Au coeur de l'eau" title="Booki -  Chambre d'hôtes Au coeur de l'eau à Marseille">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_selection_populaires">
+                              <div>
                                 <div class="titre_selection_populaires">Chambre d'hôtes Au coeur de l'eau</div>
                                 <div class="prix_selection_populaires">Nuit à partir de 71<p class="bold">€</p></div>
+                              </div>
                                 <div class="etoiles_populaires">
                                     <i class="fa-solid fa-star etoiles_bleues"></i>
                                     <i class="fa-solid fa-star etoiles_bleues"></i>
@@ -216,14 +221,16 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="selection_les_plus_populaires">
-                            <a href="#">
+                        </a>
+                        <a href="#" class="selection_les_plus_populaires">
+                            <div class="image_wrapper">
                                 <img class="populaires_image" src="./images/hebergements/hotel.jpg" alt="Booki - Hôtel bleu et Blanc à Marseille" title="Booki - Hôtel bleu et Blanc à Marseille">
-                            </a>
+                            </div>
                             <div class="titre_prix_etoiles_selection_populaires">
+                              <div>
                                 <div class="titre_selection_populaires">Hôtel bleu et Blanc</div>
                                 <div class="prix_selection_populaires">Nuit à partir de 68<p class="bold">€</p></div>
+                              </div>
                                 <div class="etoiles_populaires">
                                     <i class="fa-solid fa-star etoiles_bleues"></i>
                                     <i class="fa-solid fa-star etoiles_bleues"></i>
@@ -232,44 +239,44 @@
                                     <i class="fa-solid fa-star etoiles_grises"></i>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
-            <!----Partie Activités---->
-            <section id="activites_ville">
+            <!--Partie Activités-->
+            <article id="activites_ville">
                 <div id="titre_activites_ville">
                     <h2>Activités à Marseille</h2>
                 </div>
                 <div id="selection_activites">
-                    <div class="tous_les_elements" id="element_1">
-                        <a href="#">
+                    <a href="#" class="tous_les_elements" id="element_1">
+                        <div class="taille_image">
                             <img class="activite_image" src="./images/activites/port.jpg" alt="Booki - Vieux Port à Marseille" title="Booki - Vieux Port à Marseille">
-                        </a>
+                        </div>
                         <div class="titre_selection_activite" id="titre_element_1">Vieux Port</div>
-                    </div>
-                    <div class="tous_les_elements" id="element_2">
-                        <a href="#">
+                    </a>
+                    <a href="#" class="tous_les_elements" id="element_2">
+                        <div class="taille_image">
                             <img class="activite_image" src="./images/activites/fort.jpg" alt="Booki - Fort de Pomègues à Marseille" title="Booki - Fort de Pomègues à Marseille">
-                        </a>
+                        </div>
                         <div class="titre_selection_activite" id="titre_element_2">Fort de Pomègues</div>
-                    </div>  
-                    <div class="tous_les_elements" id="element_3">
-                        <a href="#">
+                    </a>  
+                    <a href="#" class="tous_les_elements" id="element_3">
+                        <div class="taille_image">
                             <img class="activite_image" src="./images/activites/parc.jpg" alt="Booki - Parc National des Calanques à Marseille" title="Booki - Parc National des Calanques à Marseille">
-                        </a>
+                        </div>
                         <div class="titre_selection_activite" id="titre_element_3">Parc National des Calanques</div>
-                    </div>
-                    <div class="tous_les_elements" id="element_4">
-                        <a href="#">
+                    </a>
+                    <div href="#" class="tous_les_elements" id="element_4">
+                        <div class="taille_image">
                             <img class="activite_image" src="./images/activites/notre-dame.jpg" alt="Booki - Notre-Dame-de-la-Garde à Marseille" title="Booki - Notre-Dame-de-la-Garde à Marseille">
-                        </a>
+                        </div>
                         <div class="titre_selection_activite" id="titre_element_4">Notre-Dame-de-la-Garde</div>
                     </div>  
                 </div>
-            </section>
+            </article>
         </main> 
-        <!----bas de page----> 
+        <!--bas de page--> 
         <footer>
             <section class="footer_colonne">
                 <div>
