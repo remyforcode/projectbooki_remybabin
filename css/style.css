@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
 }
-
+           
 body {
     min-width: 320px;
     max-width: 1440px;
     margin-inline: auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -414,7 +415,7 @@ h2 {
 }
 
 .populaires_image {
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     border-radius: 16px 0px 0px 16px;
@@ -444,9 +445,13 @@ h2 {
 /**** Partie Activités ****/
 
 #activites_ville {
-    padding-left: 46px;
-    padding-right: 46px;
+    padding-left: 41px;
+    padding-right: 36px;
     margin-top: 55px;
+}
+
+#titre_activites_ville{
+    padding-left: 2.5%
 }
 
 #selection_activites {
@@ -455,6 +460,8 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 .activite_image {
@@ -531,6 +538,7 @@ h2 {
 footer {
     background-color: #F2F2F2;
     display: flex;
+    justify-content: space-evenly;
     padding-left: 20px;
     padding-top: 45px;
     margin-top: 60px;
@@ -627,12 +635,15 @@ li.liens_footer:active a {
     #resultats_les_plus_populaires {
         flex-direction: row;
         padding-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
 
     .selection_les_plus_populaires {
-        width: 100%;
+        width: 33%;
         height: 100%;
-        margin-right: 20px;
+        
     }
 
     .selection_les_plus_populaires a {
@@ -729,11 +740,10 @@ li.liens_footer:active a {
         background-color: #0065FC;
         color: white;
         border: none;
-        border-radius: 16px 16px 16px 16px;
+        border-radius: 0px 16px 16px 0px;
         padding-left: 19px;
         padding-right: 19px;
         position: relative;
-        right: 10px;
     }
 
     .bouton_rechercher_mobile:hover,
@@ -761,32 +771,33 @@ li.liens_footer:active a {
 
     #titre_filtres {
         margin-bottom: 20px;
-        padding-left: 2.5%;
         font-size: 3.7vmin
         }
 
     #filtres_categories {
-        justify-content: space-around;
+        justify-content: space-between;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 3.4vmin
+        font-size: 3.4vmin;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .aspect_filtres {
-        width: 44%;
+        width: 45%;
         margin-bottom: 20px;
     }
 
     #filtres_info {
-        padding-left: 10px;
+        padding-left: 20px;
         padding-top: 30px;
+        padding-right: 20px;
     }
 
     /* Partie info */
     #info {
         margin-top: 0px;
-        padding-left: 2%;
     }
 
     #texte_info {
@@ -807,20 +818,16 @@ li.liens_footer:active a {
         background-color: transparent;
         width: 100%;
         padding-top: 40px;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     #titre_hebergements_ville h2 {
-        padding-left: 15px;
-        padding-right: 15px;
         font-size: 5.5vmin;
     }
 
     #resultats_hebergements {
         flex-direction: column;
-        padding-left: 10px;
-        padding-right: 15px;
         margin-top: 20px;
         gap: 10px;
     }
@@ -843,8 +850,6 @@ li.liens_footer:active a {
     }
 
     #afficher_plus {
-        padding-left: 10px;
-        padding-right: 15px;
         margin-top: 30px;
         height: 0px;
     }
@@ -854,21 +859,14 @@ li.liens_footer:active a {
         border-radius: 0px;
         margin-left: 0px;
         padding-top: 40px;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
-    #titre_les_plus_populaires {
-        padding-left: 10px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     #resultats_les_plus_populaires {
         margin-top: 20px;
         margin-bottom: 20px;
         margin-right: 0px;
-        padding-left: 10px;
-        padding-right: 15px;
         display: flex;
         flex-direction: column;
     }
@@ -892,27 +890,28 @@ li.liens_footer:active a {
         padding-top: 0;
     }
 
+    
+
     /**** Partie Activités ****/
     #activites_ville {
-        padding: 10px;
+        padding: 0px 20px 0px 20px;
         margin-top: 65px;
-    }
-
-    #titre_activites_ville {
-        padding-left: 10px;
-        padding-right: 15px;
     }
 
     #selection_activites {
         display: flex;
         flex-direction: column;
-        padding-left: 10px;
-        padding-right: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .titre_selection_activite {
         font-size: 3vmin;
         padding: 10px;
+    }
+
+    #titre_activites_ville{
+        padding-left: 0px;
     }
 
     #element_1,
@@ -952,7 +951,7 @@ li.liens_footer:active a {
 
     /**** Réduire la marge à gauche  ****/
     #recherche{
-        padding-left: 4.5%;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
