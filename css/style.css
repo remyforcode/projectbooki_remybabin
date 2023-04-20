@@ -395,7 +395,7 @@ h2 {
     height: 25%;
     border-radius: 20px;
     box-shadow: 1px 4px 14px 1px #d7d8d9;
-    border: 4px solid #d7d8d9;
+    border: 4px solid white;
 }
 
 .selection_les_plus_populaires a {
@@ -728,6 +728,7 @@ li.liens_footer:active a {
 
     input {
         font-size: 3.9vmin;
+        width: 100%;
     }
 
     /**** Pour masquer le bouton rechercher ****/
